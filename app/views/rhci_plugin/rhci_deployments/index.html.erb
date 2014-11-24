@@ -1,0 +1,19 @@
+<% title _("Deployments") %>
+
+<div class='alert alert-warning'>
+This is placehoder for the future Deployments page in Foreman/Satellite
+</div>
+
+<table class="table table-bordered table-striped table-two-pane">
+  <tr>
+    <th><%= sort :name, :as => s_("Deployment Name") %></th>
+    <th></th>
+  </tr>
+  <%# for domain in @domains %>
+    <tr>
+      <td><%= "First deployment" %></td>
+      <td><button class='btn btn-default'>Edit</button></td>
+    </tr>
+  <%# end %>
+</table>
+<%#= will_paginate_with_info @domains %>
