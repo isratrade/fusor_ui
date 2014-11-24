@@ -1,19 +1,20 @@
-# RhciPlugin
+# RHCI Plugin
 
-*Introdction here*
+This is a rails engine that can be added to [Foreman](https://github.com/theforeman/foreman/).
+
+It is currently just adds assets (javascript, stylesheets, images, fonts) from an ember-cli project entitled [fuser-demo](https://github.com/fusor/fusor-demo/)
+
+It will probably serve as the parent plugin to add other fusor/RHCI plugins such as the password prompt plugin, RHEV plugin, etc.
 
 ## Installation
 
-See [How_to_Install_a_Plugin](http://projects.theforeman.org/projects/foreman/wiki/How_to_Install_a_Plugin)
-for how to install Foreman plugins
+```ruby
+gem 'rhci_plugin', :git => 'https://github.com/fusor/rhci_plugin.git
+```
 
 ## Usage
 
-*Usage here*
-
-## TODO
-
-*Todo list here*
+Go to your Foreman instance and you should see a new menu item on the main menu entitled **RHCI Installer**.
 
 ## Contributing
 
@@ -21,7 +22,9 @@ Fork and send a Pull Request. Thanks!
 
 ## Copyright
 
-Copyright (c) *year* *your name*
+TBD this whole section
+
+Copyright (c) *2014* *Joseph Magen, Red Hat Engineering*
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
