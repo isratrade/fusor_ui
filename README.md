@@ -1,20 +1,18 @@
-# RHCI Plugin
+# FusorUi
 
-This is a rails engine that can be added to [Foreman](https://github.com/theforeman/foreman/).
+FusorUi is a rails engine that is added to [Foreman](https://github.com/theforeman/foreman/).
 
 It is currently just adds assets (javascript, stylesheets, images, fonts) from an ember-cli project entitled [fuser-demo](https://github.com/fusor/fusor-demo/)
-
-It will probably serve as the parent plugin to add other fusor/RHCI plugins such as the password prompt plugin, RHEV plugin, etc.
 
 ## Installation
 
 ```ruby
-gem 'rhci_plugin', :git => 'https://github.com/fusor/rhci_plugin.git
+gem 'fusor_ui', :git => 'https://github.com/isratrade/fusor_ui.git
 ```
 
 ## Usage
 
-Go to your Foreman instance and you should see a new menu item on the main menu entitled **RHCI Installer**.
+Go to your Foreman instance and you should see a new menu item on the main menu entitled **Fusor Installer**.
 
 ## Contributing
 
