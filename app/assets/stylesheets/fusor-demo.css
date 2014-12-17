@@ -1,5 +1,6 @@
+
 #ember-app {
-  padding-top: 40px;  /*change to 40px when deploying */
+  padding-top: 0px;  /*change to 40px when deploying */
 }
 
 .pager{
@@ -11076,3 +11077,8 @@ nav {
     height: 100%;
 }
 */
+
+.draggable-object {
+   display: inline-block;
+   padding: 0px 7px;
+}
