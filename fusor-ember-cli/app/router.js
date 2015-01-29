@@ -71,6 +71,9 @@ Router.map(function() {
   this.route('hostgroup/edit');
   this.route('review/installation');
   this.route('review/progress');
+  this.resource("discovered-hosts", function() {
+    this.resource("discovered-host", { path: '/:discovered_hosts_id' });
+  });
 });
 
 export default Router;
